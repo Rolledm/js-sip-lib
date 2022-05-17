@@ -2,4 +2,8 @@ function PubExample() {
     console.log("published module imported")
 };
 
-module.exports = PubExample;
+function f(a) {
+    return 10;
+}
+
+module.exports.f = f

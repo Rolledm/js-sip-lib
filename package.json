@@ -1,9 +1,16 @@
 {
   "name": "js-sip-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS library for building and parsing SIP messages.",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": "https://github.com/Rolledm/js-sip-lib.git",
   "author": "Vladislav Migachev",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0"
+  }
 }
