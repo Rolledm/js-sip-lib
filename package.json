@@ -2,7 +2,8 @@
   "name": "js-sip-lib",
   "version": "0.0.2",
   "description": "JS library for building and parsing SIP messages.",
-  "main": "index.js",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -11,7 +12,11 @@
       ".(ts|tsx)": "ts-jest"
     },
     "testRegex": "(/tests/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": ["ts", "tsx", "js"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   },
   "scripts": {
     "build": "tsc",
@@ -26,6 +31,7 @@
     "jest": "^28.1.0",
     "ts-jest": "^28.0.2",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "yarn-upgrade-all": "^0.7.1"
   }
 }
